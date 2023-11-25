@@ -1,0 +1,59 @@
+
+body {
+  font-family: 'normal', sans-serif;
+  text-align: center;
+  margin: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 10px auto;
+}
+
+th{
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgb(51, 51, 51);
+  text-align: center;
+  font-size: 16px;
+}
+
+#volkanSudoku {
+  font-weight: bold;
+}
+#volkanSudoku {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+
+#hucre2 {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: 4px solid rgb(221, 221, 221);
+  background-color:gray;
+}
+
+#hucre1 {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color:paleturquoise;
+  border: 4px solid #ddd;
+}
+
+h1 {
+  max-width: 38px;
+  margin: 5px auto;
+  padding: 12px;
+  border-radius: 5px;
+  text-align: center;
+}
